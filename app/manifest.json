@@ -31,13 +31,7 @@
     "open_in_tab": true,
     "page": "popup.html"
   },
-  "permissions": [
-    "contextMenus",
-    "sessions",
-    "storage",
-    "tabs"
-  ],
-  "web_accessible_resources": [
-    "img/icon48.png"
-  ]
+  "permissions": ["contextMenus", "sessions", "storage", "tabs"],
+  "web_accessible_resources": ["img/icon48.png"],
+  "content_security_policy": "script-src 'self' chrome-extension://hfjbmagddngcpeloejdejnfgbamkjaeg/; object-src 'self'"
 }
